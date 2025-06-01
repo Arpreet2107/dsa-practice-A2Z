@@ -14,6 +14,6 @@ public class RtAngledTriangle {
     public static void main (String[] args){
         int N=9;
         //calling the printPattern2 method
-        printPattern2(N); // Corrected method name
+        printPattern2(N);
     }
 }
