@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class IO{
-    public static void printNumber(int number) {
+    public static void printNumber(int number)
+    {
         System.out.println(number);
     }
     public static void main(String args[]){
