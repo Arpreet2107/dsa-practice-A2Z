@@ -2,7 +2,7 @@
 import java.util.*;
 
 public class Main{
-    //function to print the array 
+    //function to print the array
     public static void printArray(int ans[], int n){
         System.out.println("Reversed Array is: \n");
         for(int i = 0; i<n; i++){
