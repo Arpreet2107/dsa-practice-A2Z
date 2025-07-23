@@ -7,10 +7,10 @@ public class Main{
         System.out.println("Sum of first " + n + " natural numbers is: " + sum);
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a number: ");
-        int n = sc.nextInt();
-        Solve(n);
-        sc.close();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("Enter a number: ");
+            int n = sc.nextInt();
+            Solve(n);
+        }
     }
 }
