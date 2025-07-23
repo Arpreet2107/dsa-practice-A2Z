@@ -6,7 +6,7 @@ public class Main{
         //taking input from the user
         System.out.println("Enter a number to check if it is a palindrome:");
         int n = sc.nextInt();
-        //initializing variable dup as 0, it is the duplicate variable to store the original number
+        //initializing variable dup as n, it is the duplicate variable to store the original number
         int dup = n;
         //initializing variable rev as 0, it is used to store the reversed number
         int rev = 0;
