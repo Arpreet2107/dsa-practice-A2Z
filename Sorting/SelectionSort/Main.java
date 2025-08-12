@@ -1,4 +1,3 @@
-
 public class Main {
     
     // Method to perform selection sort
