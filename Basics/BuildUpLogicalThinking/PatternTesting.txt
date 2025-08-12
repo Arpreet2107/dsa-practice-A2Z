@@ -1,0 +1,28 @@
+Pattern1
+public class Main{
+    public static void Pattern1(int N){
+        for(int i=0;i<N;i++){
+            for(int j=0;j<N;j++){
+                Syso("* );
+            }
+            Sysoln();
+        }
+    }
+    main method
+}
+--------------------------------------------
+Pattern2
+public class Main{
+    static void Pattern2(int N){
+        for(int i =0;i<N;i++){
+            for(int j=0;j<=i;j++){//for no. of rows in each row = row index + 1
+                Syso("* ");
+            }
+            Sysoln();
+        }
+    }
+    //main method
+}
+----------------------------------------------------------------------------------
+Pattern3
+
